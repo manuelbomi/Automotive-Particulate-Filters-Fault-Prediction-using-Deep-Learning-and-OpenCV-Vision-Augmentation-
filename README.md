@@ -1,6 +1,8 @@
 # Automotive Diesel Particulate (Cordierite Filter based Catalytic Converter) Filters Images based Fault Identification using Deep Learning and OpenCV Vision Filters
 ---
-In this project, deep learning is used to learn the features of faults on cordierite filters images. Manufacturing defects or faults from returned filters are divided into categories such as 'Axial Crack', 'Skin Crack', 'Melting Defect', 'Inlet','Outlet', 'Radial Crack'. Images corresponding to these faults are converted into numpy arrays, and the arrays are used used to train deep learning networks. The image categories are converted into deep learning training columns using one-hot encoding process as shown below:
+In this project, deep learning is used to learn the features of faults on faulty automotive catalytic converter filters images. Manufacturing defects or faults from images of automotive diesel particulate filters are divided into fault categories such as 'Axial Crack', 'Skin Crack', 'Melting Defect', 'Inlet','Outlet' and 'Radial Crack'. 
+
+Images corresponding to these faults are converted into numpy arrays, and the arrays are used used to train deep learning networks. Since the images are few, OpenCV-based data augmentation techniques such as filtering the original images with Canny, Laplacian, Sharpening filter 1, Sharpening filter 2 ets are used to produce additional images for training the deep learning network. Some of the filtered non-proprietary images are provided in this repositories. Jupyter notebooks corresponding to the deep learning netwrok architecture and the different types of OpenCV-based filtered images used to train the deep learning networks are also provided in differenet Juoyter notebooks in this repository.  The image categories are converted into deep learning training columns using one-hot encoding process as shown below:
 
 ---
 
@@ -120,4 +122,11 @@ Note: For binary classification (two mutually exclusive classes), a single sigmo
 ---
 
 ![Image](https://github.com/user-attachments/assets/b3326d97-527e-4d11-9779-88037eaa5993)
+
+---
+Each attached jupyter notebbok contain the prediction results of using different types of filtered images. Some other notebooks show the prediction results relating to varying the deep learing network parameters. 
+
+
+
+
 
