@@ -1,4 +1,4 @@
-# Automotive Diesel Particulate (Cordierite Filter based Catalytic Converter) Filters Images based Fault Identification using Deep Learning
+# Automotive Diesel Particulate (Cordierite Filter based Catalytic Converter) Filters Images based Fault Identification using Deep Learning and OpenCV Vision Filters
 ---
 In this project, deep learning is used to learn the features of faults on cordierite filters images. Manufacturing defects or faults from returned filters are divided into categories such as 'Axial Crack', 'Skin Crack', 'Melting Defect', 'Inlet','Outlet', 'Radial Crack'. Images corresponding to these faults are converted into numpy arrays, and the arrays are used used to train deep learning networks. The image categories are converted into deep learning training columns using one-hot encoding process as shown below:
 
